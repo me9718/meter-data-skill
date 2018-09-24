@@ -1,4 +1,3 @@
-#from . import server
 from mycroft import MycroftSkill, intent_file_handler
 #from mycroft import intent_handler
 #from adapt.intent import IntentBuilder
@@ -37,22 +36,13 @@ while True:
                 meter_value = self.result
                 print ("value: ", self.socket_server())
                 self.speak_dialog('data.meter', data={'type':meter_type, 'value':meter_value})
-        #if meter_type is not None:
-            #self.speak("Well, the" + meter_type + "meter data value is " )
-        #else:
-            #self.speak('the type is not specified')
     
     #def stop(self):
         #pass
         #return False        
-#p = MeterDataSkill()
-#p.handle_data_meter(gas)
+
     else:break
     def create_skill():
         return MeterDataSkill()
 conn.close()
 s.close()
-
-
-#if __name__ == '__main__':
-    #create_skill()
