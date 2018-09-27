@@ -53,8 +53,6 @@ class MeterDataSkill(MycroftSkill):
     @intent_file_handler('data.meter.intent')
     def handle_data_meter(self, message):
         meter_type = message.data.get('type')
-        #y = self.main_server
-        #meter_value = y
         # Get last data received by server
         meter_value = self.clientmsg
         self.speak_dialog('data.meter', data={'type':meter_type, 'value':meter_value})
