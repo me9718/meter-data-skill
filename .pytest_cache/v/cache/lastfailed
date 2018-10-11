@@ -1,0 +1,11 @@
+{
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/fallback-wolfram-alpha.mycroftai-test82]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/meter-data-skill-test64]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-pairing.mycroftai-test99]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-weather.mycroftai-test54]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-weather.mycroftai-test70]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-weather.mycroftai-test71]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-weather.mycroftai-test72]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-weather.mycroftai-test73]": true,
+  "discover_tests.py::TestCase::()::test_skill[/opt/mycroft/skills/mycroft-weather.mycroftai-test77]": true
+}
