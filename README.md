@@ -2,7 +2,7 @@
 Reading the data that meter shows
 
 ## Description
-This skill asks other devices for data and receive them and read them loud for the user.
+This skill asks other devices for data and receives them and reads them for the user.
 
 ## Examples
  - "Read me the water meter data"
