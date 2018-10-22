@@ -1,2 +1,3 @@
-The {type} meter data is {value}
-
+The {type} meter volume is {value} instantly
+The {type} meter volume is {value1} for day1 and {value2} day2 in 48hours
+The {type} meter volume is {value1} for day1 and {value2} for day{x} in 30days
